@@ -1,0 +1,31 @@
+.footer {
+  padding: 3em 0;
+  margin-top: 4em;
+  margin-left: 4%;
+  margin-right: 4%;
+  /* width: 70%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  flex-wrap: wrap; */
+  /* text-align: left; */
+}
+
+.footer__link {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--clr-fg);
+  text-align: left;
+}
+
+.footer__small {
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 2em;
+    margin-top: 3em;
+  }
+}
